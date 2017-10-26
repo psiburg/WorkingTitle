@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "17bf2f2b-c8d8-4ece-86f8-cf08a5748099",
+            "Value": {
+                "id": "dfdb4b61-7127-437e-b76f-e623e38ff15f",
+                "resourcePath": "objects\\obj_boss_janitor\\obj_boss_janitor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2df2890d-7399-4f8c-94e0-544ca211116a",
             "Value": {
                 "id": "3f414a5f-2af0-4fcd-9d17-84f6e974f0da",
@@ -76,6 +84,14 @@
                 "id": "fe0ed100-e917-431d-bd95-2e2ca19f1efc",
                 "resourcePath": "views\\3fb3b161-098b-4561-8bd9-968c9eb4bed6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "46f5df76-d886-4677-8ac8-56bde84f3d21",
+            "Value": {
+                "id": "5636fb88-3749-4c9b-afc9-900c6bcb4651",
+                "resourcePath": "sprites\\spr_boss_janitor\\spr_boss_janitor.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

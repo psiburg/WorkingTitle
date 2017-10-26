@@ -1,4 +1,8 @@
-/// @description Insert description here
-// You can write your code in this editor
-if (vspeed <= 0)
-	vspeed -= 10
+/// @description Jump
+
+//only jump if we're allowed to (currently touching the ground)
+if (canJump)
+	vspeed -= 15
+
+canJump = false
+touchingGround = false
