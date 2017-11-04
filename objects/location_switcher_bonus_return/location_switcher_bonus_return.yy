@@ -1,18 +1,18 @@
 {
-    "id": "526884c4-d1d9-4b17-b0d2-059581d8b0dd",
+    "id": "f4ef66fd-602a-4223-bda5-e8cc36034c08",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "room_switcher",
+    "name": "location_switcher_bonus_return",
     "eventList": [
         {
-            "id": "c0d814d8-041d-4bfa-8ba1-bc67c0889cdb",
+            "id": "1fbd8566-81c5-4117-ad17-d35f627cc8c9",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "e9036e92-2e43-40e1-8375-022cfea0b97a",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "526884c4-d1d9-4b17-b0d2-059581d8b0dd"
+            "m_owner": "f4ef66fd-602a-4223-bda5-e8cc36034c08"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
