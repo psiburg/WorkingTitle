@@ -1,4 +1,7 @@
 /// @description Insert description here
+event_inherited()
+
+hit_points = 50
 
 touchingGround = false
 hspeed = 5

@@ -37,4 +37,12 @@ if (place_meeting(x + hspeed, y, obj_ground) && hspeed != 0)
 	hspeed = 0
 }
 
-show_debug_message(health)
+//change animation/facing according to movement
+if (x > mouse_x)
+{
+	image_xscale = -1
+}
+else if (x < mouse_x)
+{
+	image_xscale = 1
+}
