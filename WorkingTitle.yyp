@@ -361,6 +361,9 @@
                 "id": "1f337017-7fc0-410f-ad1f-43c9617743d3",
                 "resourcePath": "objects\\location_switcher_bonus_return\\location_switcher_bonus_return.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f5374c47-91c5-4631-840b-3d44192593ee",
             "Value": {
                 "id": "eddfeb66-64c4-4502-be88-580993b14da2",
