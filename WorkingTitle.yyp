@@ -71,11 +71,27 @@
             }
         },
         {
+<<<<<<< HEAD
             "Key": "1c0453f5-12c7-4faf-a7e9-5fec492dc3f0",
             "Value": {
                 "id": "82f23ac7-7101-4c72-a7fc-bf442e79d948",
                 "resourcePath": "sprites\\spr_nextroom\\spr_nextroom.yy",
                 "resourceType": "GMSprite"
+=======
+            "Key": "18f983d7-ffad-412d-bc30-14e298f0eefe",
+            "Value": {
+                "id": "35e37b9a-0bad-416b-b60b-bc6c6e8be947",
+                "resourcePath": "objects\\obj_bullet\\obj_bullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1c579d34-37b8-418b-957f-a44f6e0a3f20",
+            "Value": {
+                "id": "c755111a-31dd-48e1-b852-27e429de6e71",
+                "resourcePath": "views\\1c579d34-37b8-418b-957f-a44f6e0a3f20.yy",
+                "resourceType": "GMFolder"
+>>>>>>> master
             }
         },
         {
@@ -100,6 +116,14 @@
                 "id": "45a67a33-911e-4401-8f5d-3e68146b3766",
                 "resourcePath": "views\\32db5025-79ed-4c0f-86cd-1872affbe0d7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3ea75c33-7397-4218-b182-44d19de60970",
+            "Value": {
+                "id": "ba9de2c2-ffa7-4bec-b4ef-358495848854",
+                "resourcePath": "sprites\\hud_powerup_selection\\hud_powerup_selection.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -148,6 +172,22 @@
                 "id": "dc6b77da-8b46-42ae-94fd-0b91594c9f03",
                 "resourcePath": "objects\\obj_ground\\obj_ground.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "59d405ea-dc19-468a-a58b-733f2f6af258",
+            "Value": {
+                "id": "b49c47a3-ef13-4fae-b456-53efd4e32f8e",
+                "resourcePath": "sprites\\hud_rocket_icon\\hud_rocket_icon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "648a67d7-ef17-4453-9329-1e4de72ab82d",
+            "Value": {
+                "id": "ba663ffd-b92b-4635-8096-fba63404d16c",
+                "resourcePath": "sprites\\spr_rockets\\spr_rockets.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -226,7 +266,7 @@
             "Key": "b16a1292-602f-4a4f-b204-0a6119be3128",
             "Value": {
                 "id": "7f44c357-e8bb-444d-86b9-d69498c2e927",
-                "resourcePath": "objects\\obj_globalVariables\\obj_globalVariables.yy",
+                "resourcePath": "objects\\obj_controller\\obj_controller.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -319,11 +359,19 @@
             }
         },
         {
+<<<<<<< HEAD
             "Key": "f4ef66fd-602a-4223-bda5-e8cc36034c08",
             "Value": {
                 "id": "1f337017-7fc0-410f-ad1f-43c9617743d3",
                 "resourcePath": "objects\\location_switcher_bonus_return\\location_switcher_bonus_return.yy",
                 "resourceType": "GMObject"
+=======
+            "Key": "f5374c47-91c5-4631-840b-3d44192593ee",
+            "Value": {
+                "id": "eddfeb66-64c4-4502-be88-580993b14da2",
+                "resourcePath": "sprites\\spr_bullet\\spr_bullet.yy",
+                "resourceType": "GMSprite"
+>>>>>>> master
             }
         },
         {
@@ -340,6 +388,22 @@
                 "id": "6111684b-96ad-4ff3-8340-f59c012e7ef4",
                 "resourcePath": "views\\f9a3b211-d74f-4f84-bf7a-b101bd27131c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ff1b4a2e-a53e-47b5-af95-273e81455bf0",
+            "Value": {
+                "id": "a6d7854e-0d2a-40a2-8423-39efbb9d304c",
+                "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ff4dbfaf-51f0-4939-9e34-a4ddaf937fbb",
+            "Value": {
+                "id": "efd294b1-c244-4583-8680-3339512124a2",
+                "resourcePath": "sprites\\hud_invisibility_icon\\hud_invisibility_icon.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],

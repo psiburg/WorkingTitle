@@ -1,6 +1,6 @@
 /// @description Collision and AI
 /// @description Per-frame calculations
-
+event_inherited()
 //if not touching the ground, increase gravity
 if (!place_meeting(x, y + vspeed, obj_ground) && !touchingGround)
 {
@@ -63,3 +63,5 @@ if ((rocket_fire_h || rocket_fire_angle) && canFireRockets)
 	alarm[1] = room_speed * 2
 	canFireRockets = false
 }
+
+show_debug_message(hit_points)
