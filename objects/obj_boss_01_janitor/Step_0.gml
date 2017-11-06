@@ -30,7 +30,6 @@ if (place_meeting(x + hspeed, y, obj_ground) && hspeed != 0)
 		x += sign(hspeed)
 	}
 	hspeed = 0
-	show_debug_message("h collision")
 }
 
 //enter stand cycle that gives the player a window to attack
@@ -40,14 +39,12 @@ if (hspeed == 0)
 	{
 		alarm[1] = room_speed * 1.5
 		instance_create_layer(x,y,"Instances",obj_rockets)
-		show_debug_message("boss alarm 1 set")
 		canFireRockets = false
 	}
 	if (!standCycleAlarmSet)
 	{
 		image_xscale = -image_xscale
 		alarm[0] = room_speed * 5
-		show_debug_message("boss alarm 0 set")
 		standCycleAlarmSet = true
 	}
 
@@ -59,7 +56,6 @@ var rocket_fire_angle = collision_line(x,y,x+(sign(hspeed)*1500),y-1500,obj_play
 if ((rocket_fire_h || rocket_fire_angle) && canFireRockets)
 {
 	instance_create_layer(x,y,"Instances",obj_rockets)
-	show_debug_message("rockets")
 	alarm[1] = room_speed * 2
 	canFireRockets = false
 }
