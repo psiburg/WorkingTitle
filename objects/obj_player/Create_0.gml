@@ -17,3 +17,10 @@ selection_color[0] = c_green
 selection_color[1] = c_green
 selection_color[2] = c_green
 selection_color[3] = c_green
+
+//aiming
+unit_x = 1 
+unit_y = 0
+image_index = 1
+image_speed = 0
+current_aiming_angle = 0
