@@ -8,6 +8,7 @@ grav = 0.2;
 unit_x = 3;
 unit_y = 0;
 dir = 0;
+health_ = 10
 
 
 //States
