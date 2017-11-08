@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "b491d94e-733c-4302-bdb2-ff30542cb5d2",
+            "Value": {
+                "id": "b13b8a85-d924-4745-b11c-43e0ca7ab6fb",
+                "resourcePath": "sprites\\spr_mob_janitor\\spr_mob_janitor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b8888f4c-46e5-4fa1-999d-a82083464f6a",
             "Value": {
                 "id": "a282a3c7-a50c-4c9a-8be6-644d7f063190",
