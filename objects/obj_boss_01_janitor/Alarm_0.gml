@@ -1,4 +1,4 @@
-/// @description Random walk timer
+/// @description Move again after walk cycle
 // You can write your code in this editor
 
 

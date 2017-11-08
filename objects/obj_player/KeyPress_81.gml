@@ -1,10 +1,14 @@
-/// @description Insert description here
+/// @description Cycle powerups
 // You can write your code in this editor
 
-selection_color[current_weapon] = c_green
-if (current_weapon == array_length_1d(weapon_upgrades)-1)
-	current_weapon = 0
+//change current selection back to green
+selection_color[weapon_index] = c_green
+
+//start over if at the end
+if (weapon_index == array_length_1d(weapon_upgrade)-1)
+	weapon_index = 0
 else
-	current_weapon++
-	
-selection_color[current_weapon] = c_red
+	weapon_index++
+
+//change new current selection to red
+selection_color[weapon_index] = c_red

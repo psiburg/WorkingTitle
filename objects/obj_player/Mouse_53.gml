@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+//spawn bullet and shoot in current_aiming_angle direction
 var bullet_obj = instance_create_layer(x,y,"Instances",obj_bullet)
 bullet_obj.image_angle = current_aiming_angle
 bullet_obj.speed = bullet_obj.velocity

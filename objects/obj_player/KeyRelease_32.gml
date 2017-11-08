@@ -1,4 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-vspeed = 0
+//only stop if we're currently rising (just jumped)
+if (vspeed < 0)
+	vspeed = 0
