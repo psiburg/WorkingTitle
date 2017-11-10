@@ -13,11 +13,12 @@ if instance_exists(obj_player)
 	if can_shoot = 0 && alarm[0] <= 0
 	{
 		var dir = point_direction(x,y,obj_player.x,obj_player.y)
-		var x_offset = lengthdir_x(20,dir);
-		var y_offset = lengthdir_y(20,dir);
+		var x_offset = lengthdir_x(30,dir);
+		var y_offset = lengthdir_y(30,dir);
 		
 		var bullet = instance_create_layer(x + x_offset,y + y_offset, "Instances", obj_bullet)
 		bullet.direction = dir;
+		bullet.speed = bullet.velocity
 		alarm[0] = bullet_cooldown_
 		
 		

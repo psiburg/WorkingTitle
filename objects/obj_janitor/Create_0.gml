@@ -4,7 +4,7 @@
 //Declared Variables
 vsp = 0;
 hsp = 0;
-grav = 0.9;
+grav = 1.9;
 unit_x = 3;
 unit_y = 0;
 dir = 0;
