@@ -58,7 +58,7 @@
             "Key": "14568b50-5e69-4695-becc-46e585f151cb",
             "Value": {
                 "id": "95c6bbdd-0c7d-4cef-8ccd-cc6a5272ee5d",
-                "resourcePath": "objects\\obj_bus_alien\\obj_bus_alien.yy",
+                "resourcePath": "objects\\obj_sec_guard\\obj_sec_guard.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -282,7 +282,7 @@
             "Key": "b1f496d0-90be-4af3-9868-8ada48a97954",
             "Value": {
                 "id": "4f321b98-8ef5-4182-8489-7d9276ba52cc",
-                "resourcePath": "sprites\\spr_bus_alien\\spr_bus_alien.yy",
+                "resourcePath": "sprites\\spr_sec_guard\\spr_sec_guard.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -18,5 +18,5 @@ state_m = move_m;
 
 
 can_shoot = 0
-bullet_cooldown_ = room_speed/1;
+bullet_cooldown_ = room_speed/2;
 alarm[0] = bullet_cooldown_;
