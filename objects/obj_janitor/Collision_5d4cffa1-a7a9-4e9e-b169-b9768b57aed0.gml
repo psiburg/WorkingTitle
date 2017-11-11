@@ -5,7 +5,7 @@ health_ = health_ - other.damage
 instance_destroy(obj_bullet)
 
 if(health_ <= 0){
-	instance_destroy(obj_janitor)
+	instance_destroy()
 	instance_destroy(obj_mop)	
 	}
 	
