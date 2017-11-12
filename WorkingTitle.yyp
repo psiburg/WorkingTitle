@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "dec85dd8-4b77-4cd2-814e-56db95433dc5",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
             "Key": "abebe164-9317-49fb-abf8-57e3602f0491",
             "Value": {
                 "id": "003815d9-08f5-4d92-b4c3-c62a4173dbc7",
@@ -291,6 +299,14 @@
             "Value": {
                 "id": "b13b8a85-d924-4745-b11c-43e0ca7ab6fb",
                 "resourcePath": "sprites\\spr_mob_janitor\\spr_mob_janitor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b6b1be71-0d23-4019-9418-2490b0b5cb40",
+            "Value": {
+                "id": "3bab0e57-97ec-4634-8d61-ffe4201020f6",
+                "resourcePath": "sprites\\spr_mop\\spr_mop.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -343,6 +359,14 @@
             }
         },
         {
+            "Key": "d25f5924-bae9-4db5-8e96-40de4fbdd4a0",
+            "Value": {
+                "id": "adcb8210-889f-4d33-9968-57de05d81970",
+                "resourcePath": "sprites\\spr_janitor\\spr_janitor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d841d211-d52a-46bd-8796-2028d8ce858e",
             "Value": {
                 "id": "aeff149c-f19b-4f44-b2bd-fea154f08d27",
@@ -383,6 +407,14 @@
             }
         },
         {
+            "Key": "e9173be2-ad3d-4be4-a17e-9ce40d362454",
+            "Value": {
+                "id": "c09cb73a-934a-4a0d-9a14-ad58194c1560",
+                "resourcePath": "objects\\obj_mop\\obj_mop.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "eece3a26-a25e-4c3b-98a1-8de593f68de2",
             "Value": {
                 "id": "0cfac315-6513-4624-af0e-469904453c0c",
@@ -404,6 +436,14 @@
                 "id": "b9d04d3b-b9f4-429f-8d66-0bde0794ec6d",
                 "resourcePath": "sprites\\hud_invisibility_icon\\hud_invisibility_icon.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "28eafd94-083c-4d69-b55a-69173238793c",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
             }
         },
         {
@@ -444,6 +484,14 @@
                 "id": "6111684b-96ad-4ff3-8340-f59c012e7ef4",
                 "resourcePath": "views\\f9a3b211-d74f-4f84-bf7a-b101bd27131c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ffb6c4dd-2012-405f-b136-04de4e7c2756",
+            "Value": {
+                "id": "e19129c9-0076-4ed5-bd4b-9cc29db7e67d",
+                "resourcePath": "objects\\obj_janitor\\obj_janitor.yy",
+                "resourceType": "GMObject"
             }
         }
     ],
