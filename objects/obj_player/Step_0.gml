@@ -1,5 +1,17 @@
 /// @description Per-frame calculations
 
+if (dash_iframes && dash_time != dash_max_time)
+{
+	hspeed = 30 * image_xscale
+	dash_time = dash_time + 2
+	show_debug_message(string(dash_time/room_speed))
+	if (dash_time/room_speed >= dash_max_time)
+	{
+		dash_iframes = false
+		hspeed = 0
+	}
+	health = snapshot_health
+}
 
 //pull player to grappling hook
 //block all actions during travel

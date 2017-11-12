@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Use powerups
 // You can write your code in this editor
 
 if (weapon_upgrade[weapon_index] == "rockets" && can_use_rockets)
@@ -27,12 +27,17 @@ else if (weapon_upgrade[weapon_index] == "grappling hook" && can_use_hook && !ho
 else if (weapon_upgrade[weapon_index] == "invisibility" && can_use_invis)
 {
 	image_alpha = 0.5
-	alarm[0] = room_speed * 3
+	alarm[0] = room_speed * invis_duration
 	alarm[1] = room_speed * invis_cooldown
 	can_use_invis = false
+	is_invisible = true
 }
 
 else if (weapon_upgrade[weapon_index] == "dash" && can_use_dash)
 {
-	
+	dash_iframes = true
+	alarm[3] = room_speed * dash_cooldown
+	dash_time = 0
+	snapshot_health = health
+	can_use_dash = false
 }

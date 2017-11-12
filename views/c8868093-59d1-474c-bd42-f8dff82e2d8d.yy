@@ -6,7 +6,8 @@
     "children": [
         "153e324f-e5df-4388-82ee-e9f5f20eb3cd",
         "f3467510-bb36-42ea-8d8e-de587bfd66e5",
-        "69bc6fee-029d-410c-bbe7-dc850273d154"
+        "69bc6fee-029d-410c-bbe7-dc850273d154",
+        "5f66b648-3d30-4de6-81a8-2c39d5d04b81"
     ],
     "filterType": "GMSprite",
     "folderName": "HUD",

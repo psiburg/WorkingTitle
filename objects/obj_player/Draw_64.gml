@@ -28,3 +28,8 @@ if (alarm[1] != -1)
 
 //dash icon
 draw_sprite_ext(hud_powerup_selection,0,270,90,1,1,0,selection_color[3],1)
+draw_sprite_ext(hud_dash,0,270,90,1,1,0,c_white,1)
+if (alarm[3] != -1)
+{
+	draw_text(280,100,string(floor(alarm[3]/room_speed)))
+}

@@ -3,5 +3,5 @@
 hit_points = 10
 
 touchingGround = false
-
+invis_swap_timer = 0
 already_hit_by_explosion = false

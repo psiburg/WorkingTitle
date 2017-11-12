@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Shoot bullets
 // You can write your code in this editor
 
 //spawn bullet and shoot in current_aiming_angle direction

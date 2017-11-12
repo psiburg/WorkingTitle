@@ -24,6 +24,15 @@ hook_cooldown = 5
 invis_cooldown = 20
 dash_cooldown = 5
 
+//powerup misc flags
+invis_duration = 3
+is_invisible = false
+dash_iframes = false //invincibility during dash
+dash_max_time = 0.6
+dash_time = 0 //time spent in dash
+snapshot_health = 0 //record current health for invincibility during dash
+hook_in_progress = false //keeps the player pulling towards the hook
+
 //parallel array to weapon upgrades
 selection_color[0] = c_red
 selection_color[1] = c_green
@@ -37,4 +46,3 @@ image_index = 1
 image_speed = 0
 current_aiming_angle = 0
 
-hook_in_progress = false

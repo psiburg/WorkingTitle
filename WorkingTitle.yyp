@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "5f66b648-3d30-4de6-81a8-2c39d5d04b81",
+            "Value": {
+                "id": "7e3396a8-e7b1-4604-aaf0-cac86070287b",
+                "resourcePath": "sprites\\hud_dash\\hud_dash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "69bc6fee-029d-410c-bbe7-dc850273d154",
             "Value": {
                 "id": "be0b8b4c-1b39-45ba-9328-650917504887",
