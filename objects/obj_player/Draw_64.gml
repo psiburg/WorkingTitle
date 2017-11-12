@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description HUD icons
 // You can write your code in this editor
 draw_healthbar(30,25,300,45,health,c_black,c_red,c_green,0,true,true)
 draw_set_halign(fa_center)

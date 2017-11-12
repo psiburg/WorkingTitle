@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description End jump
 // You can write your code in this editor
 
 //only stop if we're currently rising (just jumped)

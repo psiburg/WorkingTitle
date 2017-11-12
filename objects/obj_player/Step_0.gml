@@ -2,19 +2,25 @@
 
 if (dash_iframes && dash_time != dash_max_time)
 {
+	//shoot forward during dash
 	hspeed = 30 * image_xscale
-	dash_time = dash_time + 2
 	show_debug_message(string(dash_time/room_speed))
+	dash_time++
+	
+	//stop when dash reaches max time
 	if (dash_time/room_speed >= dash_max_time)
 	{
 		dash_iframes = false
 		hspeed = 0
 	}
+	//instead of overwriting other ai
+	//simply force health back to the snapshot value
+	//to give the player invincibility
 	health = snapshot_health
 }
 
 //pull player to grappling hook
-//block all actions during travel
+//block all movement during travel
 if (hook_in_progress && place_meeting(hook_obj.x,hook_obj.y,obj_ground))
 {
 	speed = 0
@@ -36,7 +42,7 @@ if (hook_in_progress && place_meeting(hook_obj.x,hook_obj.y,obj_ground))
 	x += xspeed
 	y += yspeed
 	
-	//if wall on next step, stop the hook
+	//if wall on next step, end the hook cycle
 	if (place_meeting(x+xspeed,y+yspeed,obj_ground))
 	{
 		hook_in_progress = false
