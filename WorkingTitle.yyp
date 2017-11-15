@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "361593c9-4e08-47cf-83a3-424ccb1e50b5",
+            "Value": {
+                "id": "6f4c8584-f409-4d7d-94f3-74c796b61dbf",
+                "resourcePath": "sprites\\spr_raging_it\\spr_raging_it.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3fb3b161-098b-4561-8bd9-968c9eb4bed6",
             "Value": {
                 "id": "fe0ed100-e917-431d-bd95-2e2ca19f1efc",
