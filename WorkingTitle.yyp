@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "d21bd76c-6966-4c32-81dc-db415fe08dfb",
+            "Value": {
+                "id": "660021de-a485-4141-b918-afdfb22ac70b",
+                "resourcePath": "objects\\obj_raging_it\\obj_raging_it.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d25f5924-bae9-4db5-8e96-40de4fbdd4a0",
             "Value": {
                 "id": "adcb8210-889f-4d33-9968-57de05d81970",
