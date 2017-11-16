@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "4df86c25-54aa-4f99-9ff9-13c9247071f1",
+            "Value": {
+                "id": "130aa89c-8993-48e6-b66b-c677ba8a750b",
+                "resourcePath": "sprites\\spr_stick_eye_ball\\spr_stick_eye_ball.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "526884c4-d1d9-4b17-b0d2-059581d8b0dd",
             "Value": {
                 "id": "de0b5777-157c-4deb-ba52-1f1d84fecc6e",
@@ -211,6 +219,14 @@
             "Value": {
                 "id": "4aefa83a-e1d2-464c-b298-59f6d7057eb3",
                 "resourcePath": "sprites\\spr_bullet\\spr_bullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6d8129a5-9092-4f96-a697-4de844ac766b",
+            "Value": {
+                "id": "d18adeed-f9f4-4bdd-9fd6-0e078ac52dd0",
+                "resourcePath": "sprites\\spr_lazy_blob_bullet\\spr_lazy_blob_bullet.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -391,6 +407,14 @@
             }
         },
         {
+            "Key": "cf09fd79-6022-417c-b95f-59414f8ba3bd",
+            "Value": {
+                "id": "1f98faac-3313-4779-89c5-0ddbaa8c99e9",
+                "resourcePath": "objects\\obj_sticky_eye_ball\\obj_sticky_eye_ball.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d25f5924-bae9-4db5-8e96-40de4fbdd4a0",
             "Value": {
                 "id": "adcb8210-889f-4d33-9968-57de05d81970",
@@ -516,6 +540,14 @@
                 "id": "c88d5dea-106f-4d3b-acb2-0d30f6ffc062",
                 "resourcePath": "sprites\\spr_rockets\\spr_rockets.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f6b15162-bd22-4b73-9ed3-6e456ccde332",
+            "Value": {
+                "id": "83a71791-8991-4820-909b-34dc9fa95f1e",
+                "resourcePath": "objects\\obj_sticky_bullet\\obj_sticky_bullet.yy",
+                "resourceType": "GMObject"
             }
         },
         {
