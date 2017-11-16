@@ -64,3 +64,9 @@ if (place_meeting(x + hspeed, y, obj_player) && hspeed != 0)
 }
 
 if(hit_points<=0) instance_destroy()
+
+if( hspeed < 0 ){
+image_xscale = -1;
+}else{
+image_xscale = 1;
+}

@@ -11,3 +11,9 @@ cool_down=cool_down-1
 dir=sign(obj_player.x-x)
 
 if(hit_points<=0)instance_destroy()
+
+if( hspeed < 0 ){
+image_xscale = -1;
+}else{
+image_xscale = 1;
+}
