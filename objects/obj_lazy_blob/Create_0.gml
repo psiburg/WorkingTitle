@@ -15,4 +15,4 @@ spd=1
 lenX=0
 lenY=0
 
-damage=10
+hit_points=10

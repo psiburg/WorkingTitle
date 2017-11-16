@@ -35,5 +35,5 @@ if(distance_to_player<=los) && (cool_down<0)
 	cool_down=45
 }
 cool_down=cool_down-1
-if(damage<=0) instance_destroy()
 dir=sign(obj_player.x-x)
+if(hit_points<=0)instance_destroy()
