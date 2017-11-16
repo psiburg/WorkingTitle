@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "3355fda3-f54d-44b1-aafd-63c8e3b2df83",
+            "Value": {
+                "id": "cb00e268-77cc-4bf6-8ad2-507666a211b6",
+                "resourcePath": "sprites\\spr_lazy_bullet\\spr_lazy_bullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3fb3b161-098b-4561-8bd9-968c9eb4bed6",
             "Value": {
                 "id": "fe0ed100-e917-431d-bd95-2e2ca19f1efc",
@@ -207,6 +215,14 @@
             }
         },
         {
+            "Key": "6fdd2b98-ca7b-4a92-bb4f-33596f200b6f",
+            "Value": {
+                "id": "2ff1fb12-e74c-493c-96d8-23b960356dfb",
+                "resourcePath": "objects\\obj_lazy_blob\\obj_lazy_blob.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7cbeb84a-b056-46b8-aa20-04b3c4864ab4",
             "Value": {
                 "id": "e26a4299-9c18-4a26-8dcd-8c986b9b91f7",
@@ -228,6 +244,14 @@
                 "id": "722fd028-9de9-4c85-80ad-666034aaa67c",
                 "resourcePath": "rooms\\rm_boss_janitor\\rm_boss_janitor.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "8c2074ac-4a40-4996-bd32-c20b4fb8f6fc",
+            "Value": {
+                "id": "924641a2-e74e-4935-a460-1fd7678fbb4a",
+                "resourcePath": "objects\\obj_lazy_blob_bullet\\obj_lazy_blob_bullet.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -396,6 +420,14 @@
                 "id": "07067e8e-5476-4da7-87ab-453f692b2a06",
                 "resourcePath": "views\\e31a4939-6230-46fa-9056-44eaf73c6f50.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e430c4a4-b409-41ca-b91a-e2c69bd8fd4b",
+            "Value": {
+                "id": "61b2f5f1-ed27-459a-878d-8ce222020987",
+                "resourcePath": "sprites\\spr_lazy_blob\\spr_lazy_blob.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
