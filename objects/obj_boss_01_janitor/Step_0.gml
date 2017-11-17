@@ -1,6 +1,18 @@
 /// @description Collision and AI
 /// @description Per-frame calculations
+//camera_create()
+
+//call parent
 event_inherited()
+
+
+//destroy hidden door to let the player move on
+if (hit_points <= 0)
+{
+	camera_set_view_target(view_camera[0],obj_player)
+	show_debug_message("set camera")
+	instance_destroy(obj_hidden_door,true)
+}
 
 //enter stand cycle that gives the player a window to attack
 if (hspeed == 0)
@@ -29,5 +41,3 @@ if ((rocket_fire_h || rocket_fire_angle) && canFireRockets)
 	alarm[1] = room_speed * 2
 	canFireRockets = false
 }
-
-show_debug_message(hit_points)
