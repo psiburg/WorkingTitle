@@ -306,7 +306,7 @@
             "Key": "526884c4-d1d9-4b17-b0d2-059581d8b0dd",
             "Value": {
                 "id": "de0b5777-157c-4deb-ba52-1f1d84fecc6e",
-                "resourcePath": "objects\\room_switcher\\room_switcher.yy",
+                "resourcePath": "objects\\room_switcher_to_janitor\\room_switcher_to_janitor.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "6dd4b56e-5968-4673-a774-b9e4eec4a727",
+            "Value": {
+                "id": "2a7ae7cd-d2f1-4ce4-b086-cf6407398a54",
+                "resourcePath": "rooms\\rm_area_02\\rm_area_02.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "6f5f1605-c4f0-47c9-bce8-d46ebe577fe9",
             "Value": {
                 "id": "430fcceb-8e96-4a6e-86f7-ab4f1a51c7e1",
@@ -387,6 +395,14 @@
             "Value": {
                 "id": "75887d80-a5ae-4a5c-b933-5a79ae367c3e",
                 "resourcePath": "objects\\obj_lazy_blob\\obj_lazy_blob.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "71c71e02-3911-43ec-8d47-10791d83f81d",
+            "Value": {
+                "id": "3d1c488b-dfe1-422b-9c92-4f830300de4c",
+                "resourcePath": "objects\\room_switcher_to_2nd_area\\room_switcher_to_2nd_area.yy",
                 "resourceType": "GMObject"
             }
         },
