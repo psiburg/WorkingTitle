@@ -4,7 +4,7 @@ switch(state)
 	{
 		hspeed=0
 		vspeed=(min(7,vspeed+0.05));
-		if(distance_to_object(obj_player)<150) state=e_state.chase;
+		if(distance_to_object(obj_player)<200) state=e_state.chase;
 	}
 	break;
 	case e_state.chase:
@@ -12,15 +12,15 @@ switch(state)
 		dir=sign(obj_player.x-x);
 		hspeed=dir*2;
 		vspeed=(min(7,vspeed+0.05));
-		if(distance_to_object(obj_player)>75) state=e_state.attack;
+		if(distance_to_object(obj_player)<100) state=e_state.attack;
 	}
 	break;
 	case e_state.attack:
 	{
 		dir=sign(obj_player.x-x);
-		hspeed=dir*10;
+		hspeed=dir*5;
 		vspeed=(min(7,vspeed+0.05));
-		if(distance_to_object(obj_player)>200) state = e_state.idle;
+		if(distance_to_object(obj_player)>300) state = e_state.idle;
 	}
 	break;
 }

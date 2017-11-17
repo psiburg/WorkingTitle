@@ -2,7 +2,7 @@
 // You can write your code in this editor
 vspeed = 0
 hspeed = 0
-touchingGround = false
+touchingGround=false
 
 los=200
 rspeed=5
@@ -16,3 +16,7 @@ lenX=0
 lenY=0
 
 hit_points=10
+
+vspeed = 0
+hspeed = 0
+touchingGround = false

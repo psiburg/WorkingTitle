@@ -5,7 +5,7 @@
     "name": "obj_lazy_blob",
     "eventList": [
         {
-            "id": "ae3bd8f8-e6a5-466a-a4a3-ac56c15471e2",
+            "id": "f8a21580-bc07-4348-8da7-0d4f0c53f2e9",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "6fdd2b98-ca7b-4a92-bb4f-33596f200b6f"
         },
         {
-            "id": "da002598-e09c-447b-96f3-0d795bbabdc2",
+            "id": "85b6245a-f51c-47de-b0bd-bbd65b2ddb23",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
