@@ -4,6 +4,7 @@ vspeed = 0
 hspeed = 0
 canJump = true
 touchingGround = false
+global.playeralive=true
 
 //weapon upgrades
 weapon_upgrade[0] = "rockets"

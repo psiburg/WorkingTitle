@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "09a8ac93-f44b-4164-882e-166aadf5a08e",
+            "Value": {
+                "id": "4dde89a7-f91e-4128-b79a-ec3fb00b0494",
+                "resourcePath": "sprites\\spr_title\\spr_title.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "09b2ef4f-880b-4c40-bde8-914a343d6c03",
             "Value": {
                 "id": "4d713284-0650-4bab-9a25-9c8f91e360fd",
@@ -183,6 +191,14 @@
             }
         },
         {
+            "Key": "2ecb16eb-b893-4133-82bd-1ccc30ab85b8",
+            "Value": {
+                "id": "e902b8f3-5c8f-447a-b43d-a96becb01c35",
+                "resourcePath": "sprites\\spr_begin\\spr_begin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "32bbd0a7-003d-4960-84db-46d44dbf5cbb",
             "Value": {
                 "id": "1513a945-073c-47d4-b203-a6eb78c5bda6",
@@ -231,6 +247,14 @@
             }
         },
         {
+            "Key": "3f47e405-decb-4ab0-8242-1895f04b4db5",
+            "Value": {
+                "id": "10955548-24b7-4a3d-995f-21490e85e141",
+                "resourcePath": "rooms\\rm_title\\rm_title.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "3fb3b161-098b-4561-8bd9-968c9eb4bed6",
             "Value": {
                 "id": "fe0ed100-e917-431d-bd95-2e2ca19f1efc",
@@ -268,6 +292,14 @@
                 "id": "5425050e-db64-4784-8f62-b7af7a8a2401",
                 "resourcePath": "rooms\\rm_area_01\\rm_area_01.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "48b027eb-2e41-4889-948a-6cdd40b574fc",
+            "Value": {
+                "id": "19e7fa9c-d8a5-48b4-98fc-af3b09201324",
+                "resourcePath": "objects\\obj_title\\obj_title.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -707,6 +739,14 @@
             "Value": {
                 "id": "aeff149c-f19b-4f44-b2bd-fea154f08d27",
                 "resourcePath": "objects\\obj_boss_01_cart\\obj_boss_01_cart.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "da088d71-be43-44e6-a18c-30e1b3311654",
+            "Value": {
+                "id": "092c305b-a78b-4fc3-b44c-56139664d6f3",
+                "resourcePath": "objects\\obj_begin\\obj_begin.yy",
                 "resourceType": "GMObject"
             }
         },
