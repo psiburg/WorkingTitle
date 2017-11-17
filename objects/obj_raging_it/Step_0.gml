@@ -4,7 +4,7 @@ switch(state)
 	{
 		hspeed=0
 		vspeed=(min(7,vspeed+0.05));
-		if(distance_to_object(obj_player)<200) state=e_state.chase;
+		if(distance_to_object(obj_player)<150) state=e_state.chase;
 	}
 	break;
 	case e_state.chase:
@@ -12,21 +12,20 @@ switch(state)
 		dir=sign(obj_player.x-x);
 		hspeed=dir*2;
 		vspeed=(min(7,vspeed+0.05));
-		if(distance_to_object(obj_player)<100) state=e_state.attack;
+		if(distance_to_object(obj_player)>75) state=e_state.attack;
 	}
 	break;
 	case e_state.attack:
 	{
 		dir=sign(obj_player.x-x);
-		hspeed=dir*5;
+		hspeed=dir*6;
 		vspeed=(min(7,vspeed+0.05));
-		if(distance_to_object(obj_player)>300) state = e_state.idle;
+		if(distance_to_object(obj_player)>200) state = e_state.idle;
 	}
 	break;
 }
 
 //Hozontal && vertical collision
-gravity=global.gravityStrength
 if (!place_meeting(x, y + vspeed, obj_ground))
 {
 	while (!place_meeting(x,y+(sign(vspeed)),obj_ground) && vspeed != 0)
@@ -65,8 +64,11 @@ if (place_meeting(x + hspeed, y, obj_player) && hspeed != 0)
 
 if(hit_points<=0) instance_destroy()
 
-if( hspeed < 0 ){
-image_xscale = -1;
-}else{
-image_xscale = 1;
-}
+if(hspeed > 0)
+		{
+			image_xscale = -1
+		}
+		else if (hspeed < 0)
+		{
+			image_xscale = 1
+		}

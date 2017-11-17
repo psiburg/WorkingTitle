@@ -43,7 +43,6 @@ else
 		y += sign(vspeed)
 	}
 	if (place_meeting(x, y + 1, obj_ground))
-			canJump = true
 	gravity = 0
 	vspeed = 0
 	touchingGround = true

@@ -5,7 +5,7 @@
     "name": "obj_raging_it",
     "eventList": [
         {
-            "id": "6a04ff3b-641c-40d3-908e-bd79a4f280b1",
+            "id": "aaaefed8-fa1e-4476-9731-9bda42a2b8c7",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "d21bd76c-6966-4c32-81dc-db415fe08dfb"
         },
         {
-            "id": "0b3806e5-2a39-44b0-8747-5e5742b00258",
+            "id": "97d19d79-fadc-4fd4-b37f-a97c521cc9d3",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,7 +25,7 @@
             "m_owner": "d21bd76c-6966-4c32-81dc-db415fe08dfb"
         },
         {
-            "id": "60c43c75-30f1-407c-bd2d-ac890a09c549",
+            "id": "0bac3b90-488a-44bc-9559-b118e118fa4e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -36,7 +36,7 @@
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "43d3c10e-a35b-4bf5-8825-75877edf1287",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
