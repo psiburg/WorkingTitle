@@ -6,7 +6,8 @@
     "children": [
         "17bf2f2b-c8d8-4ece-86f8-cf08a5748099",
         "d841d211-d52a-46bd-8796-2028d8ce858e",
-        "9b77de4d-9b81-443b-a776-c45d46756b76"
+        "9b77de4d-9b81-443b-a776-c45d46756b76",
+        "f4e6728e-41c3-43d8-970d-54321bfec8c0"
     ],
     "filterType": "GMObject",
     "folderName": "boss_group",

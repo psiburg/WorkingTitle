@@ -11,7 +11,7 @@ else
 	hspeed = rocket_speed
 }
 
-if (collision_line(x,y,x+(sign(obj_boss_01_janitor.hspeed)*1500),y-1500,obj_player,false,true)
+if (instance_exists(obj_boss_01_janitor) && collision_line(x,y,x+(sign(obj_boss_01_janitor.hspeed)*1500),y-1500,obj_player,false,true)
 	&& !obj_boss_01_janitor.standCycleAlarmSet)
 {
 	vspeed -= rocket_speed

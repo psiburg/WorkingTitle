@@ -1,4 +1,5 @@
 /// @description Per-frame calculations
+if (instance_exists(obj_powerup_machine) && obj_powerup_machine.vending_dialog) { return; }
 
 if (dash_iframes && dash_time != dash_max_time)
 {

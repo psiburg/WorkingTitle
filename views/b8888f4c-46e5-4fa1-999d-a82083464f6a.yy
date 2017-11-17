@@ -8,7 +8,7 @@
         "0c18dd18-d241-45e7-b51a-780ac20ebb4b"
     ],
     "filterType": "GMSprite",
-    "folderName": "boss_group",
+    "folderName": "Bosses",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

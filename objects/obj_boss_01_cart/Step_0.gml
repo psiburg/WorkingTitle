@@ -1,9 +1,11 @@
 /// @description Simple constant back and forth motion
 
-if (hit_points <= 0)
+if (hspeed = 0) hspeed = 8
+if (hit_points <= 0 || !instance_exists(obj_boss_01_janitor))
 {
 	instance_destroy()
 }
+
 
 //if not touching the ground, increase gravity
 if (!place_meeting(x, y + vspeed, obj_ground) && !touchingGround)
