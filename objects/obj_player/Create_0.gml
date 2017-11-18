@@ -4,7 +4,6 @@ vspeed = 0
 hspeed = 0
 canJump = true
 touchingGround = false
-global.playeralive=true
 
 //weapon upgrades
 weapon_upgrade[0] = "rockets"
@@ -27,7 +26,7 @@ dash_cooldown = 5
 
 //powerup misc flags
 invis_duration = 3
-global.is_invisible = false
+is_invisible = false
 dash_iframes = false //invincibility during dash
 dash_max_time = 0.3
 dash_time = 0 //time spent in dash
