@@ -575,6 +575,14 @@
             }
         },
         {
+            "Key": "a1350eb8-dc63-487b-86d1-ee0f58f0fa28",
+            "Value": {
+                "id": "190fe535-8693-4617-b3ee-70b21e1aeef3",
+                "resourcePath": "rooms\\rm_area_03\\rm_area_03.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "a16ac470-79cd-4dbf-b853-a1ccb8277955",
             "Value": {
                 "id": "35dd33bb-07a6-482c-87ef-9b723f7221ab",
@@ -620,6 +628,14 @@
                 "id": "003815d9-08f5-4d92-b4c3-c62a4173dbc7",
                 "resourcePath": "sprites\\spr_rocket_launcher\\spr_rocket_launcher.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b0dfecc7-a432-454a-8182-c90f5cfc7613",
+            "Value": {
+                "id": "27622380-a44f-4af1-be35-960b2b38366d",
+                "resourcePath": "rooms\\rm_area_04\\rm_area_04.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
