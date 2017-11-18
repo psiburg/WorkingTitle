@@ -12,7 +12,9 @@
         "48febd9e-f268-45b1-8012-cf23c6c1f1f0",
         "d199fe97-a2a5-4891-80d1-bfc6440c143e",
         "c3d7cb15-2cdc-41a6-b942-6665aaaee64a",
-        "21d236e5-719e-4fba-bb6d-df5a923dbdd2"
+        "21d236e5-719e-4fba-bb6d-df5a923dbdd2",
+        "1b847312-d2c4-467e-8d9e-582f7ebac2a1",
+        "105b75d2-ee64-4178-830c-b2fe493fa7eb"
     ],
     "filterType": "GMObject",
     "folderName": "Location and room switchers",
