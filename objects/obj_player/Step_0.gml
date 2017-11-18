@@ -168,3 +168,9 @@ else if(degrees >= -67.5 && degrees < -22.5)
 	image_index = 4
 	current_aiming_angle = 315
 }
+//death
+if health<=0
+{
+global.playeralive=false
+instance_destroy()
+}
