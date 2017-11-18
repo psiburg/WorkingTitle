@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "21d236e5-719e-4fba-bb6d-df5a923dbdd2",
+            "Value": {
+                "id": "c869c4cb-f8fa-480d-81d8-71a26164953d",
+                "resourcePath": "objects\\room_switcher_to_securityguard\\room_switcher_to_securityguard.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "249d1af9-5898-4e9f-8e36-fe2b2e213667",
             "Value": {
                 "id": "aa8f1061-ad5f-4466-9edd-74632ea79557",
@@ -751,6 +759,14 @@
             }
         },
         {
+            "Key": "c3d7cb15-2cdc-41a6-b942-6665aaaee64a",
+            "Value": {
+                "id": "c1a813ed-a05d-4cd9-ba93-4a777f6b116a",
+                "resourcePath": "objects\\room_switcher_to_4th_area\\room_switcher_to_4th_area.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c8868093-59d1-474c-bd42-f8dff82e2d8d",
             "Value": {
                 "id": "3ed5a930-424c-4803-9333-6d5792528b9e",
@@ -779,6 +795,14 @@
             "Value": {
                 "id": "1f98faac-3313-4779-89c5-0ddbaa8c99e9",
                 "resourcePath": "objects\\obj_sticky_eye_ball\\obj_sticky_eye_ball.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d199fe97-a2a5-4891-80d1-bfc6440c143e",
+            "Value": {
+                "id": "3203a813-36c7-49e1-9f21-28737b33bcd1",
+                "resourcePath": "objects\\room_switcher_to_itworker\\room_switcher_to_itworker.yy",
                 "resourceType": "GMObject"
             }
         },
