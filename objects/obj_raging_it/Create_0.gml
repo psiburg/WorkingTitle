@@ -16,7 +16,7 @@ enum e_state
 {
 	idle,
 	chase,
-	attack
+	attack,
 }
 state = e_state.idle;
 

@@ -1,6 +1,6 @@
 /// @description Shoot bullets
 // You can write your code in this editor
-if (instance_exists(obj_powerup_machine) && (obj_powerup_machine.upgrade_dialog || obj_powerup_machine.powerup_dialog)) { return; }
+if (instance_exists(obj_powerup_machine) && obj_powerup_machine.vending_dialog) { return; }
 
 //spawn bullet and shoot in current_aiming_angle direction
 var bullet_obj = instance_create_layer(x,y,"Instances",obj_bullet)

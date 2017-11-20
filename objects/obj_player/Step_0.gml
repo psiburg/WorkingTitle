@@ -1,6 +1,6 @@
 /// @description Per-frame calculations
-if (instance_exists(obj_powerup_machine) && (obj_powerup_machine.upgrade_dialog || obj_powerup_machine.powerup_dialog)) { return; }
-//show_debug_message(weapons_owned)
+if (instance_exists(obj_powerup_machine) && obj_powerup_machine.vending_dialog) { return; }
+
 if (dash_iframes && dash_time != dash_max_time)
 {
 	//shoot forward during dash
@@ -96,13 +96,6 @@ if (place_meeting(x, y, obj_ground) && place_meeting(x, y+1, obj_ground))
 {
 	y-=1
 }
-
-//if player is dashing, stop logic here
-if (dash_iframes)
-{
-	return
-}
-
 //change animation/facing according to movement
 if (x > mouse_x)
 {
@@ -174,10 +167,4 @@ else if(degrees >= -67.5 && degrees < -22.5)
 {
 	image_index = 4
 	current_aiming_angle = 315
-}
-//death
-if health<=0
-{
-global.playeralive=false
-instance_destroy()
 }

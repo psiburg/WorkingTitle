@@ -11,35 +11,25 @@ if (alarm[2] != -1)
 {
 	draw_text(70,100,string(floor(alarm[2]/room_speed)))
 }
-
 //grappling hook icons
-if (unlocked_hook)
+draw_sprite_ext(hud_powerup_selection,0,130,90,1,1,0,selection_color[1],1)
+draw_sprite_ext(spr_grappling_hook,0,130,90,0.8,0.8,45,c_white,1)
+if (alarm[4] != -1)
 {
-	draw_sprite_ext(hud_powerup_selection,0,130,90,1,1,0,selection_color[1],1)
-	draw_sprite_ext(spr_grappling_hook,0,130,90,0.8,0.8,45,c_white,1)
-	if (alarm[4] != -1)
-	{
-		draw_text(140,100,string(floor(alarm[4]/room_speed)))
-	}
+	draw_text(140,100,string(floor(alarm[4]/room_speed)))
 }
 //invisibility icons
-if (unlocked_invis)
-	{
-	draw_sprite_ext(hud_powerup_selection,0,200,90,1,1,0,selection_color[2],1)
-	draw_sprite_ext(hud_invisibility_icon,0,200,90,1,1,0,c_white,1)
-	if (alarm[1] != -1)
-	{
-		draw_text(210,100,string(floor(alarm[1]/room_speed)))
-	}
+draw_sprite_ext(hud_powerup_selection,0,200,90,1,1,0,selection_color[2],1)
+draw_sprite_ext(hud_invisibility_icon,0,200,90,1,1,0,c_white,1)
+if (alarm[1] != -1)
+{
+	draw_text(210,100,string(floor(alarm[1]/room_speed)))
 }
 
 //dash icon
-if (unlocked_dash)
+draw_sprite_ext(hud_powerup_selection,0,270,90,1,1,0,selection_color[3],1)
+draw_sprite_ext(hud_dash,0,270,90,1,1,0,c_white,1)
+if (alarm[3] != -1)
 {
-	draw_sprite_ext(hud_powerup_selection,0,270,90,1,1,0,selection_color[3],1)
-	draw_sprite_ext(hud_dash,0,270,90,1,1,0,c_white,1)
-	if (alarm[3] != -1)
-	{
-		draw_text(280,100,string(floor(alarm[3]/room_speed)))
-	}
+	draw_text(280,100,string(floor(alarm[3]/room_speed)))
 }

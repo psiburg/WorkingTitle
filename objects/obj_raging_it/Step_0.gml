@@ -5,14 +5,15 @@ switch(state)
 		hspeed=0
 		vspeed=(min(7,vspeed+0.05));
 		if(distance_to_object(obj_player)<400) state=e_state.chase;
+		
 	}
 	break;
 	case e_state.chase:
-	{ 
+	{
 		dir=sign(obj_player.x-x);
 		hspeed=dir*2;
 		vspeed=(min(7,vspeed+0.05));
-		if(distance_to_object(obj_player)<150) state=e_state.attack;;
+		if(distance_to_object(obj_player)<150) state=e_state.attack;
 	}
 	break;
 	case e_state.attack:
@@ -64,8 +65,8 @@ if (place_meeting(x + hspeed, y, obj_player) && hspeed != 0)
 
 if(hit_points<=0) 
 {
-instance_destroy()
-instance_create_layer(x,y,"Instances",obj_explosion)
+	instance_destroy()
+	instance_create_layer(x,y,"Instances",obj_explosion)
 }
 if(hspeed > 0)
 		{

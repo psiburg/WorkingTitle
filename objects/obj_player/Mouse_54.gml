@@ -1,6 +1,6 @@
 /// @description Use powerups
 // You can write your code in this editor
-if (instance_exists(obj_powerup_machine) && (obj_powerup_machine.upgrade_dialog || obj_powerup_machine.powerup_dialog)) { return; }
+if (instance_exists(obj_powerup_machine) && obj_powerup_machine.vending_dialog) { return; }
 
 if (weapon_upgrade[weapon_index] == "rockets" && can_use_rockets)
 {
@@ -14,7 +14,7 @@ if (weapon_upgrade[weapon_index] == "rockets" && can_use_rockets)
 	alarm[2] = room_speed * rockets_cooldown
 }
 
-else if (unlocked_hook && weapon_upgrade[weapon_index] == "grappling hook" && can_use_hook && !hook_in_progress)
+else if (weapon_upgrade[weapon_index] == "grappling hook" && can_use_hook && !hook_in_progress)
 {
 	hook_obj = instance_create_layer(x,y,"Instances",obj_grappling_hook)
 	hook_obj.image_angle = current_aiming_angle
@@ -25,7 +25,7 @@ else if (unlocked_hook && weapon_upgrade[weapon_index] == "grappling hook" && ca
 	can_use_hook = false
 }
 
-else if (unlocked_invis && weapon_upgrade[weapon_index] == "invisibility" && can_use_invis)
+else if (weapon_upgrade[weapon_index] == "invisibility" && can_use_invis)
 {
 	image_alpha = 0.5
 	alarm[0] = room_speed * invis_duration
@@ -34,7 +34,7 @@ else if (unlocked_invis && weapon_upgrade[weapon_index] == "invisibility" && can
 	is_invisible = true
 }
 
-else if (unlocked_dash && weapon_upgrade[weapon_index] == "dash" && can_use_dash)
+else if (weapon_upgrade[weapon_index] == "dash" && can_use_dash)
 {
 	dash_iframes = true
 	alarm[3] = room_speed * dash_cooldown
