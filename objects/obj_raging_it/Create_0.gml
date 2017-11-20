@@ -15,8 +15,10 @@ hit_points=10
 enum e_state
 {
 	idle,
+	wander,
 	chase,
-	attack
+	attack,
+	search
 }
 state = e_state.idle;
 
