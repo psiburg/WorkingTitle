@@ -8,7 +8,7 @@
         "76218c1e-754b-4f9b-be13-cd09bdcd5dc0"
     ],
     "filterType": "GMObject",
-    "folderName": "Powerup machine",
+    "folderName": "Vending machine",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

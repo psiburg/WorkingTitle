@@ -543,6 +543,14 @@
             }
         },
         {
+            "Key": "82427553-d355-4636-bea0-c6087c4d19f3",
+            "Value": {
+                "id": "ced22214-a928-456f-bd0c-09ab57dcaad1",
+                "resourcePath": "objects\\obj_boss_enemy\\obj_boss_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "84546d79-b7d2-4ca4-ab98-e39fda777b56",
             "Value": {
                 "id": "20d1eabe-dc69-4000-9a17-c65399d250d2",
@@ -556,6 +564,14 @@
                 "id": "722fd028-9de9-4c85-80ad-666034aaa67c",
                 "resourcePath": "rooms\\rm_boss_janitor\\rm_boss_janitor.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "8a061e75-0781-4712-8a38-916f6b7585d2",
+            "Value": {
+                "id": "8cd67525-afd1-4038-a941-9c0169555c45",
+                "resourcePath": "objects\\obj_standard_enemy\\obj_standard_enemy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
