@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "601879cf-82da-45e0-b537-16290fa5e325",
+            "Value": {
+                "id": "5e281399-e3b5-40ce-a36a-d36e562012ef",
+                "resourcePath": "sprites\\spr_melee\\spr_melee.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "66f1e12a-c140-4f29-bf5a-65efb0c57d20",
             "Value": {
                 "id": "d5dacc13-1f47-4889-b853-a663cb792eb1",

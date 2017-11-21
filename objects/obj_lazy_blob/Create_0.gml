@@ -18,7 +18,3 @@ lenX=0
 lenY=0
 
 hit_points=10
-
-vspeed = 0
-hspeed = 0
-touchingGround = false

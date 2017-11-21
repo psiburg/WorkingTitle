@@ -1,5 +1,5 @@
 /// @description Initial player settings
-
+cool_down=0
 vspeed = 0
 hspeed = 0
 canJump = true

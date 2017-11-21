@@ -18,9 +18,14 @@ switch(state)
 	break;
 	case e_state.attack:
 	{
+		if(cool_down=0)
+		{
+		cool_down=75
 		dir=sign(obj_player.x-x);
 		hspeed=dir*6;
 		vspeed=(min(7,vspeed+0.05));
+		}
+		cool_down=cool_down-1
 		if(distance_to_object(obj_player)>450) state = e_state.idle;
 	}
 	break;
