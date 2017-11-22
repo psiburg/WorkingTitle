@@ -1,5 +1,4 @@
 rspeed=5
-image_speed=0
 spd=1
 
 vspeed = 0

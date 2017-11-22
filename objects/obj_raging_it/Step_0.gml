@@ -5,7 +5,6 @@ switch(state)
 		hspeed=0
 		vspeed=(min(7,vspeed+0.05));
 		if(distance_to_object(obj_player)<400) state=e_state.chase;
-		
 	}
 	break;
 	case e_state.chase:
@@ -44,24 +43,6 @@ if (!place_meeting(x, y + vspeed, obj_ground))
 if (place_meeting(x + hspeed, y, obj_ground) && hspeed != 0)
 {
    	while (!place_meeting(x+sign(hspeed),y,obj_ground))
-	{
-		x += sign(hspeed)
-	}
-	hspeed = 0
-}
-//Player Collision
-if (!place_meeting(x, y + vspeed, obj_player))
-{
-	while (!place_meeting(x,y+(sign(vspeed)),obj_player) && vspeed != 0)
-	{
-		y += sign(vspeed)
-	}
-	gravity = 0
-	vspeed = 0
-}
-if (place_meeting(x + hspeed, y, obj_player) && hspeed != 0)
-{
-   	while (!place_meeting(x+sign(hspeed),y,obj_player))
 	{
 		x += sign(hspeed)
 	}
