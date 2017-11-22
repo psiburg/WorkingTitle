@@ -11,3 +11,6 @@ left_wall = false
 //flags for stand cycle
 standCycle = true
 standCycleAlarmSet = false
+
+audio_stop_sound(mus_background)
+audio_play_sound(mus_boss, 10, true)

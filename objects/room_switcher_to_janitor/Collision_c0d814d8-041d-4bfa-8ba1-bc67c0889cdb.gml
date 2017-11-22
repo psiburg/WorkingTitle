@@ -3,3 +3,4 @@
 room_goto(rm_boss_janitor)
 obj_player.x=130
 obj_player.y=380
+

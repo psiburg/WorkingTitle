@@ -46,3 +46,4 @@ image_index = 1
 image_speed = 0
 current_aiming_angle = 0
 
+health_check = health
