@@ -26,7 +26,7 @@ dash_cooldown = 5
 
 //powerup misc flags
 invis_duration = 3
-is_invisible = false
+global.is_invisible = false
 dash_iframes = false //invincibility during dash
 dash_max_time = 0.3
 dash_time = 0 //time spent in dash

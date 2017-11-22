@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (obj_player.is_invisible)
+if (global.is_invisible)
 {
 	hspeed = 0
 	invis_swap_timer++
