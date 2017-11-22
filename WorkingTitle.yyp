@@ -503,6 +503,22 @@
             }
         },
         {
+            "Key": "74ee6aa7-53db-4f2b-b699-5cb56afbf0bf",
+            "Value": {
+                "id": "ecd1bc59-32d5-47f9-833e-28d72d1d363a",
+                "resourcePath": "sprites\\spr_healthup\\spr_healthup.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "75e59bc8-9299-45f1-9acf-a7de74d430f4",
+            "Value": {
+                "id": "ab73a8a4-7ed9-4330-8af0-ea2123f04dd8",
+                "resourcePath": "objects\\obj_health_powerup\\obj_health_powerup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "76218c1e-754b-4f9b-be13-cd09bdcd5dc0",
             "Value": {
                 "id": "90ef7c9a-540f-4593-b3aa-86528d374cad",
