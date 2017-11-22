@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(cool_down=0)
+if(run_over=0)
 {
 	health=health-10
-	cool_down=40
+	run_over=60
 }
-cool_down=cool_down-1
+run_over=run_over-1

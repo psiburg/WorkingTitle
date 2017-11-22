@@ -17,3 +17,4 @@ state = e_state.idle;
 lenX=20
 lenY=20
 dir=0
+run_over=0
