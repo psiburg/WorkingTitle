@@ -1,8 +1,8 @@
 {
-    "id": "98734656-9b74-42ee-998f-6af9d28271a3",
+    "id": "9eef5d1d-0f94-4afe-a5d1-cc6e04f42086",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_plant",
+    "name": "obj_waste_basket",
     "eventList": [
         
     ],
@@ -22,6 +22,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "b1ab76ec-7df4-43ac-b685-69e9a04a62f0",
+    "spriteId": "5c985b28-3c77-48a2-9ff2-0b1a62963735",
     "visible": true
 }

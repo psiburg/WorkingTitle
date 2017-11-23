@@ -1,8 +1,8 @@
 {
-    "id": "98734656-9b74-42ee-998f-6af9d28271a3",
+    "id": "a007f7e3-00b0-4165-a0c0-d8985d43b460",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_plant",
+    "name": "obj_cabinet_plant",
     "eventList": [
         
     ],
@@ -22,6 +22,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "b1ab76ec-7df4-43ac-b685-69e9a04a62f0",
+    "spriteId": "c3a1e7e5-c08e-4a45-908c-d6f463a11116",
     "visible": true
 }

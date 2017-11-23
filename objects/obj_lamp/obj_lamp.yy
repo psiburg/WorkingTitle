@@ -1,5 +1,5 @@
 {
-    "id": "cbbb05ed-12b3-48c2-b5ff-37d541f9a1a3",
+    "id": "bf4d13dd-e6bb-4b49-bb41-400028cf5af9",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_lamp",
@@ -22,6 +22,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "0d63b1fd-afa7-42d4-bd75-92ae4052209a",
+    "spriteId": "b0c47e75-3af2-4820-acdd-e420eda5b7f7",
     "visible": true
 }
