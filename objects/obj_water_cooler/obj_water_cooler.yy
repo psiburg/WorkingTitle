@@ -1,8 +1,8 @@
 {
-    "id": "98734656-9b74-42ee-998f-6af9d28271a3",
+    "id": "a9c35a6b-66e8-47ed-95a0-f94a53590757",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_plant",
+    "name": "obj_water_cooler",
     "eventList": [
         
     ],
@@ -22,6 +22,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "b1ab76ec-7df4-43ac-b685-69e9a04a62f0",
+    "spriteId": "91e0b04e-86a1-4322-8995-33183a2939c7",
     "visible": true
 }

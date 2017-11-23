@@ -1,5 +1,5 @@
 {
-    "id": "a51b5974-95db-4b26-a257-580a1a14bcd5",
+    "id": "22cfa821-00b2-4d94-afbd-fff9a661f514",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_desk",
@@ -22,6 +22,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "e7f67ce3-0225-412c-a7d3-888fb7969eca",
+    "spriteId": "4c2889d5-4acf-4a15-b142-b67a54e97ed0",
     "visible": true
 }
