@@ -1,6 +1,6 @@
 /// @description Use powerups
 // You can write your code in this editor
-if (instance_exists(obj_powerup_machine) && obj_powerup_machine.vending_dialog) { return; }
+if (instance_exists(obj_powerup_machine) && (obj_powerup_machine.upgrade_dialog || obj_powerup_machine.powerup_dialog)) { return; }
 
 if (weapon_upgrade[weapon_index] == "rockets" && can_use_rockets)
 {
@@ -31,7 +31,7 @@ else if (weapon_upgrade[weapon_index] == "invisibility" && can_use_invis)
 	alarm[0] = room_speed * invis_duration
 	alarm[1] = room_speed * invis_cooldown
 	can_use_invis = false
-	is_invisible = true
+	global.is_invisible = true
 }
 
 else if (weapon_upgrade[weapon_index] == "dash" && can_use_dash)

@@ -1,4 +1,4 @@
-event_inherited()
+
 
 switch(state)
 {
@@ -34,6 +34,7 @@ switch(state)
 	break;
 }
 
+event_inherited()
 //Hozontal && vertical collision
 if (!place_meeting(x, y + vspeed, obj_ground))
 {
@@ -58,6 +59,7 @@ if(hit_points<=0)
 	instance_destroy()
 	instance_create_layer(x,y,"Instances",obj_explosion)
 }
+
 if(hspeed > 0)
 		{
 			image_xscale = 1

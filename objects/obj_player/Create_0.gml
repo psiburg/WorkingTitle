@@ -11,6 +11,7 @@ weapon_upgrade[1] = "grappling hook"
 weapon_upgrade[2] = "invisibility"
 weapon_upgrade[3] = "dash"
 weapon_index = 0
+weapons_owned = 1
 
 //weapon use flags
 can_use_rockets = true
@@ -21,8 +22,13 @@ can_use_dash = true
 //powerup cooldowns
 rockets_cooldown = 10
 hook_cooldown = 5
-invis_cooldown = 20
+invis_cooldown = 10
 dash_cooldown = 5
+
+//has unlocked powerup flags. player always has rockets
+unlocked_hook = false
+unlocked_invis = false
+unlocked_dash = false
 
 //powerup misc flags
 invis_duration = 3

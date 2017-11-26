@@ -1,5 +1,5 @@
 /// @description Per-frame calculations
-if (instance_exists(obj_powerup_machine) && obj_powerup_machine.vending_dialog) { return; }
+if (instance_exists(obj_powerup_machine) && (obj_powerup_machine.upgrade_dialog || obj_powerup_machine.powerup_dialog)) { return; }
 
 if (dash_iframes && dash_time != dash_max_time)
 {
@@ -96,6 +96,14 @@ if (place_meeting(x, y, obj_ground) && place_meeting(x, y+1, obj_ground))
 {
 	y-=1
 }
+
+//if player is dashing, stop logic here
+//otherwise, the player can change direction mid-dash
+if (dash_iframes)
+{
+	return
+}
+
 //change animation/facing according to movement
 if (x > mouse_x)
 {

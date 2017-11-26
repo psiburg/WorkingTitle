@@ -1,3 +1,5 @@
+event_inherited()
+
 rspeed=5
 spd=1
 
