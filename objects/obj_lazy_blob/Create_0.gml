@@ -6,7 +6,7 @@ vspeed = 0
 hspeed = 0
 touchingGround=false
 
-los=200
+los=600
 rspeed=5
 distance_to_player=1000
 xPointOfInterest=x+1
