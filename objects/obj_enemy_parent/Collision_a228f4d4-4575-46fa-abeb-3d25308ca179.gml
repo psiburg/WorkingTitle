@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Explosion damage
 // You can write your code in this editor
 if (!already_hit_by_explosion)
 {

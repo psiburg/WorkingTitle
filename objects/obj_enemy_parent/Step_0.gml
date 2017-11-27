@@ -1,19 +1,15 @@
-/// @description Insert description here
+/// @description Gravity & death destroy
 // You can write your code in this editor
 
-if (global.is_invisible)
-{
-	hspeed = 0
-	invis_swap_timer++
-	if(invis_swap_timer = room_speed/2)
-	{
-		invis_swap_timer = 0
-		image_xscale = -image_xscale
-	}
-}
 if (hit_points <= 0)
 {
 	instance_destroy()
+}
+
+//if moves off a platform
+if (!place_meeting(x, y + 1, obj_ground))
+{
+	touchingGround = false
 }
 
 //if not touching the ground, increase gravity
@@ -44,4 +40,11 @@ if (place_meeting(x + hspeed, y, obj_ground) && hspeed != 0)
 		x += sign(hspeed)
 	}
 	hspeed = 0
+}
+
+//fixing a minor collision bug with the player occasionally
+//getting stuck in the ground if jumping onto an edge at just the wrong angle
+if (place_meeting(x, y, obj_ground) && place_meeting(x, y+1, obj_ground))
+{
+	y-=1
 }

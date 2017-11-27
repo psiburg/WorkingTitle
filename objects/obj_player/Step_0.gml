@@ -177,7 +177,7 @@ else if(degrees >= -67.5 && degrees < -22.5)
 	current_aiming_angle = 315
 }
 
-if(health_check != health)
+if(health_check > health)
 {
 	audio_play_sound(sfx_player_grunt, 10, false)
 }

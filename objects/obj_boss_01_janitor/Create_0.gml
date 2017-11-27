@@ -1,15 +1,14 @@
 /// @description Insert description here
 event_inherited()
 
-hit_points = 50
-
 touchingGround = false
 hspeed = 5
 canFireRockets = true
 left_wall = false
 
-//flags for stand cycle
+//flags for cycles
 standCycle = true
+walkCycle = false
 standCycleAlarmSet = false
 
 audio_stop_sound(mus_background)

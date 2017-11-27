@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "11ce8800-88b3-441c-80f8-76bd079d8dbe",
+            "Value": {
+                "id": "1d3fc2c5-b0b4-40ff-af33-a4a84560aad1",
+                "resourcePath": "objects\\obj_boss_02_manager_dust_cloud\\obj_boss_02_manager_dust_cloud.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "13b1f245-46ff-4c1a-996e-8c776c46a0e7",
             "Value": {
                 "id": "f04dc295-bf92-4dc7-b3d2-1c7e8909f1c4",
@@ -223,6 +231,14 @@
             }
         },
         {
+            "Key": "264f80c5-7bd7-4447-af65-15937f7d4fee",
+            "Value": {
+                "id": "6ec87d97-d0b0-4cfa-b7a8-5305411396fc",
+                "resourcePath": "sprites\\spr_boss_02_manager_attack\\spr_boss_02_manager_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "26cd6d21-e419-4102-8155-634ed1377bb4",
             "Value": {
                 "id": "0fa1f238-5436-4243-86dc-869ab9850911",
@@ -299,6 +315,14 @@
             "Value": {
                 "id": "0fba7cab-3cdc-4ed9-aa79-efc28b97293b",
                 "resourcePath": "sprites\\spr_vending_button\\spr_vending_button.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "348a9392-4546-442f-a7b2-ec76befccbab",
+            "Value": {
+                "id": "255be248-33c1-46ad-8cc9-f65ab8f81c61",
+                "resourcePath": "sprites\\spr_boss_02_manager_idle\\spr_boss_02_manager_idle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -447,6 +471,14 @@
             }
         },
         {
+            "Key": "5689cb62-565e-40b2-85b1-f3d6c7119df9",
+            "Value": {
+                "id": "38fbfb48-4137-43fd-adcb-9b0440467492",
+                "resourcePath": "sprites\\spr_boss_02_manager_dust_cloud\\spr_boss_02_manager_dust_cloud.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "59f794dd-f9f8-4e66-8678-85d6903e093f",
             "Value": {
                 "id": "b5da21c5-0048-4279-9cea-916a15664522",
@@ -571,6 +603,22 @@
             "Value": {
                 "id": "3d1c488b-dfe1-422b-9c92-4f830300de4c",
                 "resourcePath": "objects\\room_switcher_to_2nd_area\\room_switcher_to_2nd_area.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "72a1ef27-bcec-44ef-b77f-720667c8bab3",
+            "Value": {
+                "id": "52d6fca7-e541-4161-b44c-8d180d55800a",
+                "resourcePath": "objects\\obj_boss_02_paperwork\\obj_boss_02_paperwork.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "73f88f7e-ceff-4660-985b-b0f001956ba1",
+            "Value": {
+                "id": "4c6138ec-ef4f-448a-8269-2c333c33f58d",
+                "resourcePath": "objects\\obj_boss_02_manager\\obj_boss_02_manager.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -967,6 +1015,14 @@
             }
         },
         {
+            "Key": "bb74ca6e-9161-43eb-8820-6a663624b6dc",
+            "Value": {
+                "id": "fd767f33-88d2-4081-9fa9-07c73fc1fef3",
+                "resourcePath": "sprites\\spr_boss_02_manager_walk\\spr_boss_02_manager_walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bd52f88e-d4c1-48a6-91c8-c9464ab18b88",
             "Value": {
                 "id": "21bec7da-8f04-4021-bf73-9bfb5b3ab87d",
@@ -1151,6 +1207,14 @@
             }
         },
         {
+            "Key": "e0e1ffbc-9e2e-47d1-93c7-60c9d860aea6",
+            "Value": {
+                "id": "d370d119-3699-43d0-af05-baa7e1f84a15",
+                "resourcePath": "sprites\\spr_boss_02_paperwork\\spr_boss_02_paperwork.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e31a4939-6230-46fa-9056-44eaf73c6f50",
             "Value": {
                 "id": "07067e8e-5476-4da7-87ab-453f692b2a06",
@@ -1292,6 +1356,14 @@
                 "id": "6111684b-96ad-4ff3-8340-f59c012e7ef4",
                 "resourcePath": "views\\f9a3b211-d74f-4f84-bf7a-b101bd27131c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fd6f6f5f-ab98-4f3f-92af-45dc6725327f",
+            "Value": {
+                "id": "a5bb5655-3ab4-473a-9fda-0bf1d90da537",
+                "resourcePath": "sprites\\spr_boss_02_manager_jump\\spr_boss_02_manager_jump.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

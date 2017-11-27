@@ -15,3 +15,4 @@ if (!left_wall)
 left_wall = !left_wall
 standCycle = false
 standCycleAlarmSet = false
+walkCycle = true

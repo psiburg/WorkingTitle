@@ -1,0 +1,7 @@
+/// @description Insert description here
+// You can write your code in this editor
+image_xscale = 0.8
+image_yscale = 0.8
+travel_speed = 18
+
+damage = 10
