@@ -7,6 +7,8 @@ if instance_exists(obj_player)
 	{
 
 		state_m = move_m
+		sprite_index = spr_soldier_move
+
 
 	}
 
@@ -17,6 +19,7 @@ if instance_exists(obj_player)
 		var y_offset = lengthdir_y(30,dir);
 		
 		var bullet = instance_create_layer(x + x_offset,y + y_offset, "Instances", obj_sec_bullet)
+		sprite_index = spr_soldier_idle
 		bullet.direction = dir;
 		bullet.speed = obj_sec_bullet.b_speed
 		alarm[0] = bullet_cooldown_
