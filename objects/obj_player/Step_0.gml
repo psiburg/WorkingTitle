@@ -183,3 +183,13 @@ if(health_check > health)
 }
 
 health_check = health
+
+//gameover
+if((health <= 0) && (game_state == 0))
+{
+	game_state = -1
+	alarm[5] = room_speed * 5;
+	instance_destroy(obj_controller)
+}
+
+if(health<=0) health=0

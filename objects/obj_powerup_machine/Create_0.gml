@@ -23,3 +23,4 @@ hook_upgrade = 0.1
 invis_upgrade = obj_player.invis_cooldown/2
 dash_upgrade = obj_player.dash_max_time*2
 
+//depth = 50
