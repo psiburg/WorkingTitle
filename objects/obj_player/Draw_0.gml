@@ -6,3 +6,9 @@ if (hook_in_progress)
 {
 	draw_line_width(x,y,hook_obj.x,hook_obj.y,3)	
 }
+
+//gameover
+if (game_state=-1)
+{
+    draw_text(x,y-50, "You died.");
+}
