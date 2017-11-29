@@ -44,7 +44,7 @@ if(instance_exists(obj_player) && distance_to_object(obj_player) < 250 )
 
 
 
-/*
+
 //Horizontal Collision
 if (place_meeting(x + hsp, y, obj_ground))
 {
