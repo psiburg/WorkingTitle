@@ -4,3 +4,4 @@ if health<90{
 health+=10
 }
 else health=100
+instance_destroy()
