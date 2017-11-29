@@ -7,7 +7,8 @@
 if(instance_exists(obj_player) && distance_to_object(obj_player) > 250 )
 	{
 		dir = sign(obj_player.x - x);
-		
+		sprite_index = spr_soldier_move
+
 		
 		hsp = dir * 2;
 		if(hsp > 0)
@@ -35,7 +36,8 @@ if(instance_exists(obj_player) && distance_to_object(obj_player) > 250 )
 if(instance_exists(obj_player) && distance_to_object(obj_player) < 250 )
 	{	
 		state_m = attack_m
-		
+		sprite_index = spr_soldier_idle
+
 	}
 
 /****************************************/
