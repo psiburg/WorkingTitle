@@ -28,6 +28,7 @@
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
+                {
                     "id": "1081c4df-a2fe-4fe6-bcd6-7c6c00e7c742",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
