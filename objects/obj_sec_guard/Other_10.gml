@@ -10,7 +10,7 @@ if(instance_exists(obj_player) && distance_to_object(obj_player) > 250 )
 		sprite_index = spr_soldier_move
 
 		
-		hsp = dir * 2;
+		hsp = dir * 4;
 		if(hsp > 0)
 		{
 			image_xscale = -1

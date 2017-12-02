@@ -4,7 +4,13 @@ vspeed = 0
 hspeed = 0
 canJump = true
 touchingGround = false
-
+image_speed = 1
+image_xscale = 1.7
+image_yscale = 1.7
+player_sprite_scaling = 1.7
+shoot_origin_x = image_xscale*7
+shoot_origin_y = image_yscale*11
+shoot_animation = false
 //weapon upgrades
 weapon_upgrade[0] = "rockets"
 weapon_upgrade[1] = "grappling hook"
@@ -49,7 +55,6 @@ selection_color[3] = c_green
 unit_x = 1 
 unit_y = 0
 image_index = 1
-image_speed = 0
 current_aiming_angle = 0
 
 health_check = health

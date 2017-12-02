@@ -1,10 +1,37 @@
 /// @description Per-frame calculations
-if (instance_exists(obj_powerup_machine) && (obj_powerup_machine.upgrade_dialog || obj_powerup_machine.powerup_dialog)) { return; }
+if ((instance_exists(obj_powerup_machine) && (obj_powerup_machine.upgrade_dialog || obj_powerup_machine.powerup_dialog)) || global.gameOver) { vspeed = 0; gravity = 0; hspeed = 0; return; }
+//show_debug_message(touchingGround)
+//show_debug_message("bbox bottom " + string(bbox_bottom))
+//show_debug_message("x " + string(y))
+
+
+//ceiling sprite switch fuckup
+while (place_meeting(x,y,obj_ground) && !place_meeting(x,bbox_bottom,obj_ground))
+{
+	y+=1
+}
+//ground sprite switch fuckup
+while (place_meeting(x,y,obj_ground) && !place_meeting(x,bbox_top+5,obj_ground))
+{
+	y-=1
+}
+
+//left wall sprite switch fuckup
+while (place_meeting(x,y,obj_ground) && !place_meeting(bbox_right,y,obj_ground))
+{
+	x+=1
+}
+
+//right wall sprite switch fuckup
+while (place_meeting(x,y,obj_ground) && !place_meeting(bbox_left,y,obj_ground))
+{
+	x-=1
+}	
 
 if (dash_iframes && dash_time != dash_max_time)
 {
 	//shoot forward during dash
-	hspeed = 30 * image_xscale
+	hspeed = 30 * sign(image_xscale)
 	show_debug_message(string(dash_time/room_speed))
 	dash_time++
 	
@@ -75,7 +102,7 @@ else
 }
 
 //if the player moves off a platform
-if (!place_meeting(x, y + 1, obj_ground))
+if (!place_meeting(x, y + 2, obj_ground))
 {
 	touchingGround = false
 }
@@ -107,12 +134,14 @@ if (dash_iframes)
 //change animation/facing according to movement
 if (x > mouse_x)
 {
-	image_xscale = -1
+	image_xscale = -player_sprite_scaling
 }
 else if (x < mouse_x)
 {
-	image_xscale = 1
+	image_xscale = player_sprite_scaling
 }
+shoot_origin_x = image_xscale*8
+
 //aiming
 
 var vector_mouse_x = mouse_x - x
@@ -131,57 +160,58 @@ var degrees = radtodeg(radians)
 //right
 if(degrees >= -22.5 && degrees < 22.5)
 { 
-	image_index = 1
 	current_aiming_angle = 0
+	shoot_origin_y = image_yscale*11-5
 }
-//right up
+//up right
 else if(degrees >= 22.5 && degrees < 67.5) 
 {
-	image_index = 2
 	current_aiming_angle = 45
+	shoot_origin_y = image_yscale*11-15
 }
 //up
 else if(degrees >= 67.5 && degrees < 112.5)
 {
-	image_index = 3
 	current_aiming_angle = 90
+	shoot_origin_y = 15
+	shoot_origin_x = 0
 }
 //up left
 else if(degrees >= 112.5 && degrees < 157.5) 
 {
-	image_index = 2
 	current_aiming_angle = 135
+	shoot_origin_y = image_yscale*11-15
 }
 //left
 else if(degrees >= 157.5 || degrees < -157.5) 
 {
-	image_index = 1
 	current_aiming_angle = 180
+	shoot_origin_y = image_yscale*11-5
 }
 //down left
 else if(degrees >= -157.5 && degrees < -112.5) 
 {
-	image_index = 4
 	current_aiming_angle = 235
+	shoot_origin_y = image_yscale*11+15
 }
 //down 
 else if(degrees >= -112.5 && degrees < -67.5) 
 {
-	image_index = 5
 	current_aiming_angle = 270
+	shoot_origin_y = -15
+	shoot_origin_x = 0
 }
 //down right
 else if(degrees >= -67.5 && degrees < -22.5) 
 {
-	image_index = 4
 	current_aiming_angle = 315
+	shoot_origin_y = image_yscale*11+15
 }
 
 if(health_check > health)
 {
 	audio_play_sound(sfx_player_grunt, 10, false)
 }
-
 health_check = health
 
 //gameover
@@ -191,5 +221,4 @@ if((health <= 0) && (game_state == 0))
 	alarm[5] = room_speed * 5;
 	instance_destroy(obj_controller)
 }
-
 if(health<=0) health=0

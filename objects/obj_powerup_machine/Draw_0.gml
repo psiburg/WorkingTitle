@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 draw_self()
+draw_set_color(c_black)
 if (powerup_dialog && obj_player.weapons_owned == 1)
 {
 	draw_text_ext_transformed(obj_player.x,obj_player.y-475,"There's only one drink left in the machine...",30,300,2,2,0)

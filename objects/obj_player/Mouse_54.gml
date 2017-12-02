@@ -1,6 +1,6 @@
 /// @description Use powerups
 // You can write your code in this editor
-if (instance_exists(obj_powerup_machine) && (obj_powerup_machine.upgrade_dialog || obj_powerup_machine.powerup_dialog)) { return; }
+if ((instance_exists(obj_powerup_machine) && (obj_powerup_machine.upgrade_dialog || obj_powerup_machine.powerup_dialog)) || global.gameOver) { return; }
 
 if (weapon_upgrade[weapon_index] == "rockets" && can_use_rockets)
 {
@@ -12,6 +12,8 @@ if (weapon_upgrade[weapon_index] == "rockets" && can_use_rockets)
 	rocket_obj.image_yscale = 0.5
 	can_use_rockets = false
 	alarm[2] = room_speed * rockets_cooldown
+	sprite_index = spr_player_attack
+	shoot_animation = true
 }
 
 else if (weapon_upgrade[weapon_index] == "grappling hook" && can_use_hook && !hook_in_progress)
@@ -23,6 +25,8 @@ else if (weapon_upgrade[weapon_index] == "grappling hook" && can_use_hook && !ho
 	hook_in_progress = true
 	alarm[4] = room_speed * hook_cooldown
 	can_use_hook = false
+	sprite_index = spr_player_attack
+	shoot_animation = true
 }
 
 else if (weapon_upgrade[weapon_index] == "invisibility" && can_use_invis)
@@ -32,6 +36,8 @@ else if (weapon_upgrade[weapon_index] == "invisibility" && can_use_invis)
 	alarm[1] = room_speed * invis_cooldown
 	can_use_invis = false
 	global.is_invisible = true
+	sprite_index = spr_player_attack
+	shoot_animation = true
 }
 
 else if (weapon_upgrade[weapon_index] == "dash" && can_use_dash)
@@ -41,4 +47,6 @@ else if (weapon_upgrade[weapon_index] == "dash" && can_use_dash)
 	dash_time = 0
 	snapshot_health = health
 	can_use_dash = false
+	sprite_index = spr_player_attack
+	shoot_animation = true
 }
