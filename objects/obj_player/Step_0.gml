@@ -49,7 +49,7 @@ if (dash_iframes && dash_time != dash_max_time)
 
 //pull player to grappling hook
 //block all movement during travel
-if (hook_in_progress && place_meeting(hook_obj.x,hook_obj.y,obj_ground))
+if (hook_in_progress && (place_meeting(hook_obj.x,hook_obj.y,obj_ground) || hook_obj.speed = 0))
 {
 	speed = 0
 	var vx = hook_obj.x - x; //x compenent of our vector
