@@ -1,5 +1,6 @@
 if (global.is_invisible)
 {
+	sprite_index=spr_IT2_idle
 	hspeed = 0
 	invis_swap_timer++
 	if(invis_swap_timer = room_speed/2)
@@ -16,12 +17,18 @@ switch(state)
 		
 		hspeed=0
 		vspeed=(min(7,vspeed+0.05));
-		if(distance_to_object(obj_player)<600) state = e_state.chase
+		if(distance_to_object(obj_player)<600)
+		{
+			state = e_state.chase
+		}
 	}
 	break;
 	case e_state.chase:
 	{
-		if(distance_to_object(obj_player)<250) state = e_state.attack
+		if(distance_to_object(obj_player)<450)
+		{
+			state = e_state.attack
+		}
 		dir=sign(obj_player.x-x);
 		hspeed=dir*2;
 		vspeed=(min(7,vspeed+0.05));
@@ -29,11 +36,13 @@ switch(state)
 	}
 	case e_state.attack:
 	{
-	if(distance_to_object(obj_player)>650) 
+		if(distance_to_object(obj_player)>600)
+		{
+			state=e_state.idle
 		sprite_index=spr_IT2_run
 		if(cool_down=0)
 		{
-		cool_down=75
+		cool_down=65
 		dir=sign(obj_player.x-x);
 		hspeed=dir*6;
 		vspeed=(min(7,vspeed+0.05));
