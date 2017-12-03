@@ -4,7 +4,7 @@ event_inherited()
 
 
 distance_to_player=distance_to_object(obj_player)
-if((distance_to_player<=los) && (cool_down<0) && (global.is_invisible=false))
+if(distance_to_player<=los) && (cool_down<0)
 {
 	var bullet_id
 	bullet_id=instance_create_layer(x+lengthdir_x(lenX,image_angle)-lengthdir_y(lenY,image_angle),y+lengthdir_y(lenX,image_angle)+lengthdir_x(lenY,image_angle),"Instances",obj_lazy_blob_bullet)
