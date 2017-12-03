@@ -8,7 +8,9 @@
         "da088d71-be43-44e6-a18c-30e1b3311654",
         "15bd96cc-e882-40c7-ad4b-fb8a86be740a",
         "8b9af04a-4a38-4fa6-bd29-ea707054ffcc",
-        "195532a1-5216-4de4-88ba-1815c47b8c2d"
+        "195532a1-5216-4de4-88ba-1815c47b8c2d",
+        "041d27e5-4d6b-481d-b0d8-0765ef83c54e",
+        "af5f5014-6baf-4445-9b2d-74a14b1c495d"
     ],
     "filterType": "GMObject",
     "folderName": "Title Screen",
