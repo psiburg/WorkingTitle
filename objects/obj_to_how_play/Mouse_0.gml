@@ -1,0 +1,1 @@
+room_goto(rm_how_to_play)
