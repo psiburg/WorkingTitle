@@ -4,6 +4,7 @@
 //check if player exists and if player is farther than given point 
 if(instance_exists(obj_player) && distance_to_object(obj_player) > 50 && distance_to_object(obj_player) < 500  ) //& distance_to_object(obj_player) < 500)
 	{
+		sprite_index = spr_janitor_idle
 		instance_destroy(obj_mop)
 		dir = sign(obj_player.x - x);
 		
@@ -39,7 +40,7 @@ if(instance_exists(obj_player) && distance_to_object(obj_player) > 50 && distanc
 if(instance_exists(obj_player) && distance_to_object(obj_player) < 50 )
 	{	
 		state_m = attack_m
-		
+		//sprite_index = spr_janitor_attack
 	}
 
 /****************************************/
@@ -49,6 +50,7 @@ if(instance_exists(obj_player) && distance_to_object(obj_player) < 50 )
 if(instance_exists(obj_player) && distance_to_object(obj_player) > 500)
 {
 	state_m = idle_m
+	sprite_index = spr_janitor_idle
 
 }
 
@@ -66,6 +68,7 @@ if (place_meeting(x + hsp, y, obj_ground))
 		x += sign(hsp);
 	}
 	hsp = 0;
+	dir *= -1
 }
 x += hsp;
 
@@ -77,6 +80,9 @@ if (place_meeting(x, y + vsp, obj_ground))
 		y += sign(vsp);
 	}
 	vsp = 0;
+	
+
+	
 }
 y += vsp;
 

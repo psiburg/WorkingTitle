@@ -10,6 +10,7 @@ if (instance_exists(obj_player))
 		{
 			instance_destroy(obj_mop)
 			state_m = move_m
+			sprite_index = spr_janitor_idle
 
 		}
 
