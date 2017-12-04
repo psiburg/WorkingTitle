@@ -107,3 +107,4 @@ if (place_meeting(x, y, obj_ground) && place_meeting(x, y+1, obj_ground))
 {
 	y-=1
 }
+}
