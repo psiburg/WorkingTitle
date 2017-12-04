@@ -29,8 +29,8 @@ if (instance_exists(obj_player))
 		{
 			obj_mop.image_xscale = 1
 		}
-		alarm[0] = room_speed*0.2
-		alarm[1] = room_speed*0.5
+		alarm[0] = room_speed*1.2
+		alarm[1] = room_speed*0.3
 		
 		
 	}

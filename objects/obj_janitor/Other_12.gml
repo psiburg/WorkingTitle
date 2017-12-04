@@ -8,7 +8,7 @@ if (instance_exists(obj_player))
 
 	if (distance_to_object(obj_player) > 50 && distance_to_object(obj_player) < 500)
 		{
-
+			instance_destroy(obj_mop)
 			state_m = move_m
 
 		}
@@ -21,3 +21,5 @@ if (instance_exists(obj_player))
 		}
 		
 }
+
+//if(obj_)
