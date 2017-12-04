@@ -10,6 +10,7 @@ unit_y = 0;
 dir = 0;
 hit_points = 5
 
+
 //States
 move_m = 0;
 attack_m = 1;
