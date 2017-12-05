@@ -25,7 +25,7 @@ switch(state)
 	break;
 	case e_state.chase:
 	{
-		if(distance_to_object(obj_player)<450)
+		if(distance_to_object(obj_player)<250)
 		{
 			state = e_state.attack
 		}
@@ -36,13 +36,14 @@ switch(state)
 	}
 	case e_state.attack:
 	{
-		if(distance_to_object(obj_player)>600)
+	if(distance_to_object(obj_player)>650) 
 		{
 			state=e_state.idle
+		}
 		sprite_index=spr_IT2_run
 		if(cool_down=0)
 		{
-		cool_down=65
+		cool_down=75
 		dir=sign(obj_player.x-x);
 		hspeed=dir*6;
 		vspeed=(min(7,vspeed+0.05));
@@ -106,5 +107,4 @@ if (place_meeting(x + hspeed, y, obj_ground) && hspeed != 0)
 if (place_meeting(x, y, obj_ground) && place_meeting(x, y+1, obj_ground))
 {
 	y-=1
-}
 }
